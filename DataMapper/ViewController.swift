@@ -38,6 +38,7 @@ class ViewController: NSViewController {
     }
     
     func getJsonCoordinates() -> NSArray {
+        // Magic string
         var url: NSURL = NSURL(string: "http://pleskac.org:8080/api/trip/id/11")!
         
         var request1: NSURLRequest = NSURLRequest(URL: url)

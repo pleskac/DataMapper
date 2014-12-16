@@ -674,13 +674,13 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <mapView mapType="standard" showsScale="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ey9-Yi-CaK">
-                                <rect key="frame" x="80" y="0.0" width="400" height="270"/>
+                                <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                             </mapView>
                         </subviews>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="ey9-Yi-CaK" secondAttribute="trailing" id="CxA-TQ-tRf"/>
                             <constraint firstItem="ey9-Yi-CaK" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" id="HWO-fa-p0Z"/>
-                            <constraint firstItem="ey9-Yi-CaK" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="80" id="hcq-5V-fXa"/>
+                            <constraint firstItem="ey9-Yi-CaK" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="hcq-5V-fXa"/>
                             <constraint firstAttribute="bottom" secondItem="ey9-Yi-CaK" secondAttribute="bottom" id="j1z-fu-K5o"/>
                         </constraints>
                     </view>
